@@ -1,11 +1,35 @@
 body {
-	font-family: monospace;
-	max-width: 40em;
+	font-family: helvetica;
+    background:white;
+
+    font-size:15px;
+}
+
+#contain{
+    padding:2em;
+}
+
+.content-img{
+    max-width:15%;
+    float:left;
+}
+img{
+    width:auto;
+    height:auto;
+}
+
+.img-avi{
+    max-width:100%;
+}
+
+.content{
+    margin-left:15%;
+    padding-left:2em;
 }
 
 .box {
-	margin: 1em;
-	padding: 1em;
+    padding:1em;
+
 }
 
 .indent {
@@ -21,4 +45,12 @@ body {
 }
 .grey{
     color:grey;
+}
+
+a:visited {
+    color:#0022ff;
+}
+
+a{
+    color:black;
 }
