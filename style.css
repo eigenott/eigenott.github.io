@@ -10,7 +10,7 @@ body {
 }
 
 .content-img{
-    max-width:15%;
+    max-width:20%;
     float:left;
 }
 img{
@@ -23,7 +23,7 @@ img{
 }
 
 .content{
-    margin-left:15%;
+    margin-left:20%;
     padding-left:2em;
 }
 
