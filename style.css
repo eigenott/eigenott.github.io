@@ -1,8 +1,24 @@
 body {
 	font-family: helvetica;
     background:white;
+    font-size:17px;
+}
 
-    font-size:15px;
+img{
+    width:auto;
+    height:auto;
+	max-width:100%;
+}
+
+button{
+	font-size:18px;
+	background:transparent;
+	border:1px solid lightgrey;
+	border-radius: 3px;
+}
+
+button:hover{
+	background:lightgrey;
 }
 
 #contain{
@@ -13,14 +29,7 @@ body {
     max-width:18%;
     float:left;
 }
-img{
-    width:auto;
-    height:auto;
-}
 
-.img-avi{
-    max-width:100%;
-}
 
 .content{
     margin-left:18%;
@@ -54,3 +63,10 @@ a:visited {
 a{
     color:#0022ff;
 }
+
+li{
+	list-style-type:none;
+	line-height: 120%;
+}
+
+li:before { content: '↪'; margin-left: -20px; font-size:10px; margin-right: 10px; }

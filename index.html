@@ -1,9 +1,14 @@
 <!-- why r u here lierally -->
+<!doctype html>
 <html>
   <head>
     <title>eigen</title>
     <link rel="stylesheet" type="text/css" href="style.css"></link>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- jquery -->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+    <script src='script.js'></script>
   </head>
   <body>
       <div id="contain">
@@ -14,68 +19,87 @@
             <h1> &nbsp; eigen </h1>
             <h3> &nbsp; &nbsp; he/him/his </h3>
             <div class="box">
-              <div>
-                <span class="bold">edu:</span>
+                <button id="aboutbtn">about 👨‍💻</button>
+                <button id="edubtn">edu ‍💻</button>
+                <button id="projectbtn">projects ⚔️</button>
+                <button id="readingbtn">reading 📚</button>
+
+            </div>
+            <div class="box" id="aboutbox">
+                literally just. some guy
+            </div><!-- end about -->
+
+            <div class="box" id="edubox">
+                <span class="bold">Columbia University</span>
                 <ul>
-                    <li>
-                      columbia seas '22
-                        <ul>
-                        <li>computer science intelligent systems</li>
-                        <ul>
-                    </li>
+                    <li>B.S. Computer Science - Intelligent Systems</li>
                 </ul>
-            </div>
-        </div>
-        <div class="box">
-              <div>
-                 <span class="bold">projects:</span>
-                 <ul>
-                     <li>
-                       inferring gene regualtory networks with DGCNNs
-                     </li>
-                     <li>
-                       analysis of semantic properties of tweets with tone indicator tokens
-                     </li>
-                 </ul>
-             </div>
-        </div>
-        <div class="box">
-              <div>
-                 <span class="bold">reading:</span>
-                 <ul>
-                     <li>
-                       vagabond
-                     </li>
+            </div> <!-- end edu -->
 
-                     <li>
-                        chainsaw man
-                     </li>
-                     <li>
-                        ulysses
-                     </li>
+            <div class="box" id="projectbox">
+                  <div>
+                     <span class="bold">projects:</span>
+                     <ul>
+                         <li>
+                           inferring gene regualtory networks with DGCNNs
+                         </li>
+                         <li>
+                           analysis of semantic properties of tweets with tone indicator tokens
+                         </li>
+                     </ul>
+                 </div>
+            </div> <!-- end project -->
 
-                     <li>
-                       2ha
-                     </li>
+            <div class="box" id="readingbox">
+                <div class='bold'>2022</div>
+                <ul>
+                    <li>2ha</li>
+                    <li><b>scum villain's self saving system</b></li>
+                    <li>you</li>
+                    <li>tao te ching</li>
+                    <li>ulysses</li>
+                    <li>blood meridian</li>
+                    <li>mo dao zu shi</li>
+                    <li><b>tian guan ci fu</b></li>
+                    <li>american psycho</li>
+                    <li>the body keeps the score</li>
+                    <li>my dark vanessa</li>
+                </ul>
+                <div class='bold'>2021</div>
+                <ul>
+                    <li><b>infinite jest</b></li>
+                    <li>notes from underground</li>
+                    <li>norwegian wood</li>
+                    <li><b>brief interviews with hideous men</b></li>
+                    <li>100 years of solitude</li>
+                    <li><b>the brothers karamazov</b></li>
+                    <li>after dark</li>
+                    <li>war and peace</li>
+                    <li><b>goodnight punpun</b></li>
+                    <li>men without women</li>
+                    <li>the setting sun</li>
+                    <li>my year of rest and relaxation</li>
+                    <li><b>the people in the trees</b></li>
+                    <li>1q84</li>
+                    <li>the road to nihilism</li>
+                    <li>klara and the sun</li>
+                    <li><b>no longer human</b></li>
+                    <li>notes from the dead house</li>
+                    <li>the 48 laws of power</li>
+                    <li>a confession</li>
+                </ul>
 
-                 </ul>
-             </div>
-        </div>
-        <div class="box">
-              <div>
-                 <span class="bold">ytd reading word count:</span>
-                 <ul>
-                     <li>
-                        2,614,564
-                     </li>
+                <div class='bold'>2020</div>
+                <ul>
+                    <li><b>a little life</b></li>
+                    <li><b>crime and punishment</b></li>
+                    <li>lolita</li>
+                    <li><b>in praise of shadows</b></li>
+                    <li>exhalation</li>
+                    <li>the stranger</li>
+                </ul>
+            </div> <!-- end reading -->
 
-                 </ul>
-             </div>
-        </div>
-
-            <div class="box">
-
-            </div>
             </div>
         </div>
   </body>
