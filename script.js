@@ -39,6 +39,16 @@ $(document).ready(function(){
             readingbox.style.display = "none";
         }
     });
+
+    $("#ideasbtn").click(function(){
+        clearBoxes();
+        var ideasbox = document.getElementById("ideasbox");
+        if (ideasbox.style.display === "none"){
+            ideasbox.style.display = "block";
+        } else {
+            ideasbox.style.display = "none";
+        }
+    });
 })
 
 function showAbout(){
@@ -58,6 +68,7 @@ function getAllBoxes(){
     var edubox = document.getElementById("edubox");
     var projectbox = document.getElementById("projectbox");
     var readingbox = document.getElementById("readingbox");
+    var ideasbox = document.getElementById("ideasbox");
 
-    return [aboutbox, edubox, projectbox, readingbox]
+    return [aboutbox, edubox, projectbox, readingbox, ideasbox]
 }
