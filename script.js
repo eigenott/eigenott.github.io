@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    console.log("ok the js ran")
     clearBoxes();
     showAbout();
     $("#aboutbtn").click(function(){
