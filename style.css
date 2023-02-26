@@ -1,7 +1,9 @@
 body {
-	font-family: helvetica;
+	color:black;
+	font-family: monospace;
     background:white;
     font-size:17px;
+	line-height: 150%;
 }
 
 img{
@@ -10,19 +12,9 @@ img{
 	max-width:100%;
 }
 
-button{
-	font-size:18px;
-	background:transparent;
-	border:1px solid lightgrey;
-	border-radius: 3px;
-}
-
-button:hover{
-	background:lightgrey;
-}
 
 #contain{
-    padding:2em;
+    padding:3em;
 }
 
 .content-img{
@@ -30,30 +22,10 @@ button:hover{
     float:left;
 }
 
-
 .content{
     margin-left:18%;
     padding-left:2.5em;
-}
-
-.box {
-    padding:1em;
-
-}
-
-.indent {
-	margin-left: 1em;
-}
-
-.list {
-	list-style-type: none;
-}
-
-.bold {
-	font-weight: bold;
-}
-.grey{
-    color:grey;
+	width:50%;
 }
 
 a:visited {
@@ -62,27 +34,4 @@ a:visited {
 
 a{
     color:#0022ff;
-}
-
-li{
-	list-style-type:none;
-	line-height: 120%;
-	max-width:300px;
-}
-
-li:before { content: '>'; margin-left: -35px; font-size:10px; margin-right: 10px; }
-
-
-.sticky{
-	border:1px solid lightgrey;
-	border-radius: 5px;
-	width:250px;
-	display:inline-block;
-	margin:10px;
-	padding:15px;
-	vertical-align: top;
-}
-
-.sticky img{
-	max-width:100%;
 }
