@@ -15,13 +15,14 @@ img{
 
 #contain{
     padding:1vw;
+	max-width:100%;
 }
 
 
 .content{
     margin-left:2vw;
     padding-left:0.5vw;
-	width:100%;
+	max-width:100%;
 }
 
 a:visited {
