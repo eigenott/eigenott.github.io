@@ -1,0 +1,35 @@
+body {
+	color:black;
+	font-family: monospace;
+    background:white;
+    font-size:17px;
+	line-height: 150%;
+}
+
+img{
+    width:auto;
+    height:auto;
+	max-width:100%;
+}
+
+
+#contain{
+    padding:3vw;
+}
+
+
+
+
+.content{
+    margin-left:18%;
+    padding-left:2.5vw;
+	width:50%;
+}
+
+a:visited {
+    color:#0022ff;
+}
+
+a{
+    color:#0022ff;
+}
