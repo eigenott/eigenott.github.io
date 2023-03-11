@@ -14,17 +14,12 @@ img{
 
 
 #contain{
-    padding:3em;
-}
-
-.content-img{
-    max-width:18%;
-    float:left;
+    padding:3vw;
 }
 
 .content{
     margin-left:18%;
-    padding-left:2.5em;
+    padding-left:2.5vw;
 	width:50%;
 }
 
